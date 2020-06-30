@@ -9,6 +9,7 @@ LABEL IICS Base Image for CI/CD Builds
 RUN apt-get update && apt-get install -y \
     curl \
     ant \
+    git \
     unzip && \
     curl "https://d1vvhvl2y92vvt.cloudfront.net/awscli-exe-linux-x86_64.zip" -o "/tmp/awscliv2.zip" &&\
     unzip /tmp/awscliv2.zip -d /tmp &&\
