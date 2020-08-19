@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
     ant \
     git \
     unzip && \
-    curl "https://d1vvhvl2y92vvt.cloudfront.net/awscli-exe-linux-x86_64.zip" -o "/tmp/awscliv2.zip" &&\
+    curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "/tmp/awscliv2.zip" &&\
     unzip /tmp/awscliv2.zip -d /tmp &&\
     ./tmp/aws/install &&\
     rm -rf /tmp/aws &&\
